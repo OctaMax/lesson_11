@@ -1,0 +1,548 @@
+
+/* &display=swap */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* //////////////////////////////////////// */
+.wrapper {
+	min-height: 100%;
+	/* overflow: hidden; */
+	position: relative;
+	
+}
+/* //////////////////////////////////////// */
+
+body{
+	font-family:"Lato";
+	font-size: 16px;
+	line-height: 160%;
+	background-color: rgb(220, 233, 240);
+}
+
+header{
+	margin: 0px 0px 100px 0px;
+}
+
+.main {
+	
+
+}
+/* ========================================= */
+
+.page {
+	margin: 0px 0px 100px 0px;
+	
+}
+
+.ukrainian-flag {
+	
+	max-width: 800px;
+	margin: 0 auto;
+	
+}
+
+.ukrainian-flag__symbol {}
+
+.symbol {
+	
+}
+
+.symbol__trident {
+	max-width: 500px;
+	margin: 0 auto;
+	position: sticky;
+	top: 0px;
+	left: 0;
+	z-index: 5;
+}
+
+.symbol__trident::before {
+	content: "";
+	display: inline-block;
+	width: 500px;
+	height: 400px;
+	background:url(../img/ucr.svg) 50% 0 no-repeat;
+	margin: 0px 0px 30px 0px;
+}
+
+.symbol__color {
+	position: sticky;
+	top: 0;
+	left: 0;
+	margin: 0px 0px 200px 0px;
+}
+
+.symbol__color::before {
+	content: "";
+	display: inline-block;
+	width: 800px;
+	height: 200px;
+}
+
+.symbol__color--blue::before{
+	background-color: rgb(63, 112, 238);
+}
+
+
+
+.symbol__color--yellowe::before {
+	background-color: rgb(214, 246, 55);
+}
+
+/* =========================C=============================== */
+/* =========================A=============================== */
+/* =========================R=============================== */
+.car {
+	height: 800px;
+	padding:250px 0px 0px 0px;
+	background: #78787f;
+	background: -webkit-linear-gradient(179deg, #78787f 0%, #040404 50%, #000000 100%);
+	background: linear-gradient(179deg, #78787f 0%, #040404 50%, #000000 100%);
+	
+}
+.car__element {
+
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.element {
+	position: relative;
+}
+
+.element__rear {
+	
+}
+.element__rear::before{
+	content: "";
+	display: inline-block;
+	width: 130px;
+	height: 138px;
+	background-color: rgb(17, 20, 19);
+	border-radius: 59% 41% 27% 26% / 25% 0% 0% 25%;}
+
+.element__top-part {}
+
+.element__top-part::before{
+	content: "";
+	display: inline-block;
+	background-color: rgb(17, 20, 19);
+	width: 200px;
+	height: 120px;
+	border-radius: 100% 0% 24% 76% / 100% 28% 0% 0%;
+	position: absolute;
+	bottom: 80px;
+	left: 60px;
+}
+
+.element__center-top {}
+
+.element__center-top::before {
+	content: "";
+	display: inline-block;
+	background-color: rgb(17, 20, 19);
+	width: 220px;
+	height: 120px;
+	border-radius: 0% 100% 100% 0% / 0% 100% 0% 100%;	
+	position: absolute;
+	bottom: 80px;
+	left: 260px;
+}
+
+.element__hood {}
+
+
+.element__hood::before {
+	content: "";
+	display: inline-block;
+	background-color: rgb(17, 20, 19);
+	width: 220px;
+	height: 140px;
+	border-radius: 0% 100% 4% 96% / 100% 57% 43% 0%;
+	position: absolute;
+	bottom: 6px;
+	left: 390px;
+}
+
+.element__bottom-center {}
+
+.element__bottom-center::before {
+	content: "";
+	display: inline-block;
+	background-color: rgb(17, 20, 19);
+	width: 260px;
+	height: 100px;
+	position: absolute;
+	bottom: 6px;
+	left: 130px;
+}
+
+.frame__top-window {}
+
+.frame__bottom-window {}
+
+
+
+
+.frame__top-window::before {
+	content: "";
+	display: inline-block;
+background: rgba(0, 0, 0, 0.88);
+	background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.88) 0%, rgba(59, 56, 56, 0.85) 50%, rgba(148, 139, 139, 0.6) 100%);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.88) 0%, rgba(59, 56, 56, 0.85) 50%, rgba(148, 139, 139, 0.6) 100%);
+	border: 9px solid rgba(10, 10, 10, 0.505);
+	width: 130px;
+	height: 50px;
+	box-shadow: 0px -2px 15px rgb(198, 191, 191);
+	border-radius: 100% 0% 24% 76% / 100% 28% 0% 0%;
+	position: absolute;
+	bottom: 140px;
+	left: 120px;
+}
+
+.frame__bottom-window::before {
+	content: "";
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.88);
+	background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.88) 0%, rgba(59, 56, 56, 0.85) 50%, rgba(148, 139, 139, 0.6) 100%);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.88) 0%, rgba(59, 56, 56, 0.85) 50%, rgba(148, 139, 139, 0.6) 100%);
+	border: 9px solid rgba(11, 11, 11, 0.505);
+	width: 180px;
+	height: 50px;
+	box-shadow: 1px -3px 19px rgb(198, 191, 191);
+	border-radius: 0% 100% 23% 23% / 0% 100% 0% 0%;
+	position: absolute;
+	bottom: 140px;
+	left: 242px;
+}
+.frame__center-window {}
+
+.frame__center-window::before {
+	content: "";
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.88);
+	background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.88) 0%, rgba(84, 81, 81, 0.85) 50%, rgba(148, 139, 139, 0.6) 100%);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.88) 0%, rgba(84, 81, 81, 0.85) 50%, rgba(148, 139, 139, 0.6) 100%);
+	border: 3px solid rgba(32, 30, 31, 0.055);
+	width: 10px;
+	height: 50px;
+	box-shadow: 0px 0px 9px rgb(0, 0, 0);
+	position: absolute;
+	bottom: 140px;
+	left: 242px;
+}
+.frame__right-window::before {
+	content: "";
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.88);
+	background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.88) 0%, rgba(84, 81, 81, 0.85) 50%, rgba(148, 139, 139, 0.6) 100%);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.88) 0%, rgba(84, 81, 81, 0.85) 50%, rgba(148, 139, 139, 0.6) 100%);
+	border: 3px solid rgba(32, 30, 31, 0.055);
+	width: 8px;
+	height: 25px;
+	box-shadow: 0px 0px 9px rgb(0, 0, 0);
+	position: absolute;
+	bottom: 145px;
+	left: 380px;
+}
+
+.element__mirror {}
+
+.element__mirror::before {
+	content: "";
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.348);
+	background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.85) 50%, rgba(148, 139, 139, 0.6) 100%);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.85) 50%, rgba(148, 139, 139, 0.6) 100%);
+	width: 25px;
+	height: 25px;
+	box-shadow: 1px 0px 9px rgb(21, 19, 19);
+	border-radius: 29% 71% 68% 32% / 57% 49% 51% 43%;	
+	position: absolute;
+	bottom: 133px;
+	left: 403px;
+}
+
+
+.lights__head-lights::before {
+	content: "";
+	display: inline-block;
+	background: #fbfcfd;
+	width: 30px;
+	height: 15px;
+	box-shadow: 10px 3px 17px rgb(247, 247, 247),25px 6px 17px rgb(247, 247, 247),
+		30px 7px 20px rgb(247, 247, 247),
+			50px 8px 17px rgb(247, 247, 247),
+				60px 10px 30px rgb(247, 247, 247),
+					70px 10px 30px rgb(247, 247, 247),
+						80px 10px 30px rgb(247, 247, 247),
+							90px 11px 30px rgb(247, 247, 247),
+								100px 11px 30px rgb(247, 247, 247),
+								110px 12px 31px rgb(247, 247, 247),
+								120px 12px 31px rgb(247, 247, 247),
+									130px 12px 31px rgb(247, 247, 247),
+									130px 13px 32px rgb(247, 247, 247),
+									150px 13px 32px rgb(247, 247, 247),
+										160px 14px 32px rgb(247, 247, 247),
+										170px 14px 32px rgb(247, 247, 247),
+										180px 15px 32px rgb(247, 247, 247),
+										190px 15px 33px rgb(247, 247, 247),
+										200px 15px 34px rgb(247, 247, 247),
+										220px 16px 34px rgb(247, 247, 247),
+											240px 16px 35px rgb(247, 247, 247),
+											260px 17px 35px rgb(247, 247, 247),
+											270px 17px 35px rgb(247, 247, 247),
+											280px 18px 35px rgb(247, 247, 247),
+											300px 18px 35px rgb(247, 247, 247),
+											320px 19px 35px rgb(247, 247, 247),
+												340px 19px 36px rgb(247, 247, 247),
+												360px 19px 36px rgb(247, 247, 247),
+												380px 19px 36px rgb(247, 247, 247),
+												400px 20px 36px rgb(247, 247, 247),
+												430px 20px 37px rgb(247, 247, 247),
+												460px 20px 37px rgb(247, 247, 247);
+	border-radius: 100% 0% 0% 100% / 25% 49% 51% 75%;
+	position: absolute;
+	bottom: 65px;
+	left: 579px;
+}
+
+
+
+.lights__rear-lights::before {
+	content: "";
+	display: inline-block;
+	background: rgb(202, 34, 54);
+	width: 25px;
+	height: 20px;
+	box-shadow: -10px 0px 12px rgb(218, 53, 53);
+	border-radius: 0% 100% 100% 0% / 100% 17% 83% 0%;	
+	position: absolute;
+	bottom: 90px;
+	left: 0px;
+}
+
+
+
+.door__bottom-frame::before {
+	content: "";
+	display: inline-block;
+	background: #292626;
+	background: -webkit-linear-gradient(183deg, #292626 0%, #141414 50%, #000000 100%);
+	background: linear-gradient(183deg, #292626 0%, #141414 50%, #000000 100%);
+	border-radius: 88% 12% 5% 95% / 0% 25% 45% 25%;
+	width: 180px;
+	height: 1px;
+	box-shadow: 1px -3px 13px rgb(100, 98, 98);
+	position: absolute;
+	bottom: 30px;
+	left: 249px;
+}
+
+
+.door__left-frame::before {
+	content: "";
+	display: inline-block;
+	background: #373636;
+	background: -webkit-linear-gradient(183deg, #292626 0%, #141414 50%, #000000 100%);
+	background: linear-gradient(183deg, #292626 0%, #141414 50%, #000000 100%);
+	border-radius: 88% 12% 5% 95% / 0% 25% 45% 25%;
+	width: 1px;
+	height: 100px;
+	box-shadow: 2px 3px 9px rgba(130, 125, 125, 0.283);
+	position: absolute;
+	bottom: 30px;
+	left: 249px;
+}
+
+
+.element__curves-left {
+	
+}
+.wheel{}
+
+.wheel__body::before {
+	content: "";
+	display: inline-block;
+	background-color: #121111c6;
+	border: 6px solid rgb(18, 17, 17);
+	border-radius: 50%;
+	box-shadow: inset 0px 0px 3px rgb(17, 17, 17);
+	width: 110px;
+	height: 110px;
+	position: absolute;
+	top: 60px;
+	left: 70px;
+	
+}
+
+.wheel__center {}
+
+.wheel__center::before {
+	content: "";
+	display: inline-block;
+	background: #1a1616;
+	background: -webkit-linear-gradient(0deg, #1a1616 0%, #312e2e 50%, #211d1d 100%);
+	background: linear-gradient(0deg, #1a1616 0%, #312e2e 50%, #211d1d 100%);
+	border: 9px solid rgb(24, 24, 24);
+	border-radius: 50%;
+	box-shadow: 0px 0px 19px rgba(17, 17, 17, 0.283);
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 65px;
+	left: 75px;
+}
+
+.weel--postion{
+	position: absolute;
+	bottom: 140px;
+	left: 380px;
+}
+
+
+/* ============================ */
+.weel__disk {
+	
+}
+.disk {
+	position: relative;
+}
+.disk__petal {
+}
+.petal {
+}
+.petal__top::before {
+	content: "";
+	display: inline-block;
+	background-color: #1e1d1d;
+	width: 10px;
+	height: 34px;
+	border: 1px solid rgb(40, 38, 38);
+	box-shadow: 1px 1px 1px rgb(0, 0, 0);
+	border-radius: 100% 0% 99% 1% / 43% 0% 62% 47%;
+	position: absolute;
+	bottom: 36px;
+	left: 120px;
+
+}
+.petal__bottom::before {
+	content: "";
+	display: inline-block;
+	background-color: #1e1d1d;
+	width: 10px;
+	height: 34px;
+	border: 1px solid rgb(40, 38, 38);
+	box-shadow: 1px 1px 1px rgb(0, 0, 0);
+	border-radius: 100% 0% 99% 1% / 43% 0% 62% 47%;	position: absolute;
+	bottom: -11px;
+	left: 118px;
+}
+.petal__left::before {
+	content: "";
+	display: inline-block;
+	background-color: #1e1d1d;
+	width: 34px;
+	height: 10px;
+	border: 1px solid rgb(40, 38, 38);
+	box-shadow: 1px 1px 1px rgb(0, 0, 0);
+	border-radius: 43% 0% 62% 47% / 100% 0% 99% 1%;	position: absolute;
+	bottom: 23px;
+	left: 84px;
+}
+.petal__right::before {
+	content: "";
+	display: inline-block;
+	background-color: #1e1d1d;
+	width: 34px;
+	height: 10px;
+	border: 1px solid rgb(40, 38, 38);
+	box-shadow: 1px 1px 1px rgb(0, 0, 0);
+	border-radius: 43% 0% 62% 47% / 100% 0% 99% 1%;
+	position: absolute;
+	bottom: 25px;
+	left: 132px;
+}
+.petal__center::before {
+	content: "";
+	display: inline-block;
+	background-color: #1e1d1d;
+	width: 15px;
+	height: 15px;
+	border: 1px solid rgb(40, 38, 38);
+	box-shadow: 0px 0px 3px rgb(0, 0, 0);
+	border-radius: 50%;
+	position: absolute;
+	bottom: 22px;
+	left: 118px;
+}
+
+.disk--position-right{
+	top: 142px;
+	left: 0;
+}
+
+.element__decor {
+	
+}
+
+.decor {
+	position: relative;
+}
+
+.decor__body::before {
+	content: "";
+	display: inline-block;
+	background-color: #100f0f;
+	width: 15px;
+	height: 35px;
+	border: 1px solid rgb(40, 38, 38);
+	box-shadow: -1px 2px 1px rgb(0, 0, 0);
+	border-radius: 30% 41% 27% 51% / 6% 39% 42% 8%;
+	position: absolute;
+	bottom: 79px;
+	left: 450px;
+}
+.decor__line{
+	
+}
+.decor__line::before {
+	content: "";
+	display: inline-block;
+	background-color: #000000;
+	width: 40px;
+	height: 2px;
+	border: 1px solid rgb(61, 60, 60);
+	box-shadow: 0px 0px 11px rgb(54, 51, 51);
+	border-radius: 30% 41% 27% 51% / 6% 39% 42% 8%;
+	position: absolute;
+	bottom: 105px;
+	left: 410px;
+}
+
+.decor__line--center::before {
+	bottom: 95px;
+	left: 410px;
+}
+
+
+
+
+
+.decor__line--bottom::before {
+	bottom: 85px;
+	left: 410px;
+}
+
+.handle__door::before{
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 5px;
+	border-radius: 45% 43% 45% 53% / 36% 40% 41% 45%;
+	background-color: #171414;
+	box-shadow: 0px -1px 1px rgb(0, 0, 0);
+	position: absolute;
+	bottom: 99px;
+	left: 260px;
+}
